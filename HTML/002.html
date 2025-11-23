@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #abc{
+            background-color: yellow;
+            color : black;
+        }
+        .container {
+            display: flex;
+            min-height: 400px;
+        }
+        
+        .sidebar {
+            background-color: #f4f4f4;
+            width: 200px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .sidebar li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        .main-content ul {
+            line-height: 1.8;
+        }
+        
+        .cute-image {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="xyz">
+        <h1>Welcome to My Simple Page</h1>
+        <p>A basic HTML example</p>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </aside>
+        
+        <main class="main-content">
+            <h2>Main Content Area</h2>
+            <p>This is a simple webpage with all the basic elements.</p>
+            
+            <h3>Features included:</h3>
+            <ul>
+                <li>Header section</li>
+                <li>Sidebar with navigation</li>
+                <li>Main content area</li>
+                <li>Footer section</li>
+            </ul>
+            
+            <div class="cute-image">
+                <svg width="150" height="150" viewBox="0 0 150 150">
+                    <circle cx="75" cy="75" r="70" fill="#FFE4B5"/>
+                    <circle cx="55" cy="60" r="8" fill="#333"/>
+                    <circle cx="95" cy="60" r="8" fill="#333"/>
+                    <path d="M 50 95 Q 75 110 100 95" stroke="#333" stroke-width="3" fill="none"/>
+                    <circle cx="50" cy="65" r="15" fill="#FFB6C1"/>
+                    <circle cx="100" cy="65" r="15" fill="#FFB6C1"/>
+                </svg>
+                <p><em>A cute smiley face!</em></p>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 My Simple Page. All rights reserved.</p>
+    </footer>
+
+
+    <script src="../004.js"></script>
+</body>
+</html>
